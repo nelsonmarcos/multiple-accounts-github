@@ -1,0 +1,7 @@
+[include]
+	path = ~/git-personal.conf
+
+[includeIf "gitdir:~/projects/work/"]
+	path = ~/git-work.conf
+[init]
+	defaultBranch = main
